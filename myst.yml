@@ -37,13 +37,11 @@ project:
         - file: lectures/spreadsheets.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/data-settings.ipynb
-        - file: lectures/objects.ipynb
-        - file: lectures/asymptotic-analysis.ipynb
+        - file: lectures/learning-algorithms.ipynb
         - file: lectures/geospatial-data-frames.ipynb
         - file: lectures/dissolve-intersect-and-join.ipynb
-        - file: lectures/learning-algorithms.ipynb
-        - file: lectures/model-evaluation.ipynb
-        - file: lectures/bias-variance-bias-and-bias.ipynb
+        - file: lectures/objects.ipynb
+        - file: lectures/efficiency.ipynb
         - file: lectures/numpy.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
@@ -65,11 +63,14 @@ project:
       children:
         - file: homework/processing.ipynb
         - file: homework/pokemon.ipynb
-        - file: homework/search.ipynb
-    - title: Assessments
-      children:
         - file: assessments/education.ipynb
         - file: assessments/mapping.ipynb
+        - file: homework/search.ipynb
+    - title: Extras
+      children:
+      - file: lectures/model-evaluation.ipynb
+      - file: lectures/bias-variance-bias-and-bias.ipynb
+
 #  plugins:
 #    - schedule.mjs
 site:
